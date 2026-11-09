@@ -1,0 +1,17 @@
+[project]
+name = "compositecementstrength-predictionmodel"
+version = "1.0.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "sahilkavathekar7070-cyber", email = "sahilkavathekar7070@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+compositecementstrength-predictionmodel = "compositecementstrength_predictionmodel:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
